@@ -16,5 +16,8 @@ class ViewController: UIViewController {
         sender.shake()
     }
 
+    @IBAction func spingButtonPressed(_ sender: UIButton) {
+        sender.springAnimation()
+    }
 }
 

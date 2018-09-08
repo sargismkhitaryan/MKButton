@@ -19,4 +19,16 @@ extension UIButton {
         animation.values = values
         layer.add(animation, forKey: nil)
     }
+    
+    func springAnimation() {
+        let animation = CASpringAnimation(keyPath: "transform.scale")
+        
+        animation.fromValue = 0.9
+        animation.toValue = 1
+        
+        animation.duration = 0.3
+        animation.damping = 5
+        
+        layer.add(animation, forKey: nil)
+    }
 }

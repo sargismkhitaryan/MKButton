@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension UIButton {
-    func shake(duration: TimeInterval, values: [Float]) {
+    func shake(duration: TimeInterval = 0.3, values: [Float] = [-12, 12, -8, 8, -4, 4]) {
         let animation = CAKeyframeAnimation(keyPath: "transform.translation.x")
         
         animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)

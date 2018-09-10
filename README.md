@@ -1,6 +1,6 @@
 # MKButton
 
-[![Alt text for your video](https://github.com/sargismkhitaryan/MKButton/blob/master/Screen/MKButtonVideo.mov)
+[![Alt text for your video](https://github.com/sargismkhitaryan/MKLabel/blob/master/Screen/ScreenRecord.mov)
 
 ## Usage
 Run the example project from the `Example` directory and check out `ViewController.swift`.

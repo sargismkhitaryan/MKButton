@@ -18,3 +18,7 @@ Run the example project from the `Example` directory and check out `ViewControll
         sender.springAnimation()
     }
 ```
+
+## License
+
+`MKButton` is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
